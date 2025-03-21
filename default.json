@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["customManagers:githubActionsVersions"],
+  "extends": ["config:recommended", "customManagers:githubActionsVersions"],
 
   "packageRules": [
     {
