@@ -1,0 +1,19 @@
+{
+  "name": "renovate-config",
+  "type": "module",
+  "packageManager": "pnpm@10.6.4",
+  "volta": {
+    "node": "22.14.0",
+    "pnpm": "10.6.4"
+  },
+  "scripts": {
+    "fix": "pnpm run prettier:fix",
+    "check": "pnpm run prettier:check",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "prettier-plugin-sort-json": "4.1.1"
+  }
+}
