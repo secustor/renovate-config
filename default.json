@@ -31,5 +31,8 @@
       "matchPackageNames": ["actions/setup-node"],
       "matchUpdateTypes": ["patch", "minor"]
     }
-  ]
+  ],
+
+  "prConcurrentLimit": 20,
+  "prHourlyLimit": 0
 }
