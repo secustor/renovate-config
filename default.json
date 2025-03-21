@@ -19,7 +19,16 @@
     {
       "automerge": true,
       "description": "Automerge safe NodeJS updates",
-      "matchDatasources": "node-version",
+      "extends": ["group:nodeJs"],
+      "groupName": ["NodeJS"],
+      "matchUpdateTypes": ["patch", "minor"]
+    },
+    {
+      "automerge": true,
+      "description": "Automerge safe NodeJS action updates",
+      "groupName": ["NodeJS"],
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["actions/setup-node"],
       "matchUpdateTypes": ["patch", "minor"]
     }
   ]
