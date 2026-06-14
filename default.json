@@ -8,6 +8,11 @@
 
   "packageRules": [
     {
+      "matchDatasources": ["npm"],
+      "matchSourceUrls": ["!https://github.com/secustor/**"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
       "automerge": true,
       "description": "Automerge dev dependencies if there are tests",
       "matchDepTypes": ["devDependencies"],
