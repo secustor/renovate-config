@@ -17,8 +17,12 @@
       "automerge": true,
       "description": "Automerge dev dependencies if there are tests",
       "matchDepTypes": ["devDependencies"],
-      "matchManagers": ["npm"],
-      "matchUpdateTypes": ["patch", "minor"]
+      "matchManagers": ["npm"]
+    },
+    {
+      "automerge": true,
+      "description": "Automerge GitHub actions",
+      "matchManagers": ["github-actions"]
     },
     {
       "automerge": true,
@@ -34,7 +38,6 @@
       "matchUpdateTypes": ["patch", "minor"]
     },
     {
-      "automerge": true,
       "description": "Automerge safe NodeJS action updates",
       "groupName": ["NodeJS"],
       "matchManagers": ["github-actions"],
