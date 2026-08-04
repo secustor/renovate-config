@@ -26,6 +26,11 @@
     },
     {
       "automerge": true,
+      "description": "Automerge lockfile maintenance",
+      "matchUpdateTypes": ["lockFileMaintenance"]
+    },
+    {
+      "automerge": true,
       "description": "Automerge package manager updates",
       "matchPackageNames": ["yarn", "npm", "pnpm"],
       "matchUpdateTypes": ["patch", "minor"]
