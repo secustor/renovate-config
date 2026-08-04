@@ -7,6 +7,10 @@
     "helpers:pinGitHubActionDigestsToSemver"
   ],
 
+  "lockFileMaintenance": {
+    "automerge": true
+  },
+
   "packageRules": [
     {
       "matchDatasources": ["npm"],
