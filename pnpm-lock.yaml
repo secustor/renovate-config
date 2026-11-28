@@ -189,13 +189,13 @@ importers:
         specifier: 3.10.1
         version: 3.10.1
       prettier-plugin-sort-json:
-        specifier: 4.2.0
-        version: 4.2.0(prettier@3.10.1)
+        specifier: 4.3.0
+        version: 4.3.0(prettier@3.10.1)
 
 packages:
 
-  prettier-plugin-sort-json@4.2.0:
-    resolution: {integrity: sha512-jK1w3/7otTvHtv1eoLji2U9mEoOGeyl7QQQ/afLnjht1YtRLSUUk8o0rIIC/HUVXhoGPCFe4SVZbRGYjjUVgvA==}
+  prettier-plugin-sort-json@4.3.0:
+    resolution: {integrity: sha512-pH0+aCOHLvu6ketEQb/Kjdcu4TrwmgHSDCCZMdlm/lrZzXnW5ieyuaT9Hn1RtITgAmpyX6bJIG4fiyQiw3Hpbw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -207,7 +207,7 @@ packages:
 
 snapshots:
 
-  prettier-plugin-sort-json@4.2.0(prettier@3.10.1):
+  prettier-plugin-sort-json@4.3.0(prettier@3.10.1):
     dependencies:
       prettier: 3.10.1
 
